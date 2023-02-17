@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<title>Página de Contato</title>
+</head>
+<body>
+
+	<header style="width: 100%; background-color:  rgb(139, 255, 150); color: rgb(5, 91, 55);">
+		<img src="./image/logomoto1.png" style="width: 50%; padding-left: 25%;" >
+		<nav>
+			<!-- Adicione aqui o sua lista -->
+            <ul style="text-align: right; margin-right: 30px;">
+                <li style="width: 100%; padding: 6px; list-style: none">
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Acessórios</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Capacete</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Jaquetas</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Moto Peças</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Off Road</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Pneus</a>
+                    <a href="#" style="width: 100%; padding: 6px; text-decoration:none" >Vestuário</a>
+                </li>
+                    
+            </ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2>Contato</h2>
+
+			<p>Entre em contato conosco através do formulário abaixo ou pelos meios de contato listados na tabela.</p>
+            <!-- Adicione aqui o seu formulário -->
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <br>
+                    <label for="cNome">Nome:</label>
+                    <input type="text" name="nome" id="cNome" minlength="1" maxlength="70" size="40" placeholder="Nome completo" required><br><br> <!--required é deixar o campo obrigatório-->
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" placeholder="Escreva seu e-mail..." ><br><br>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" name="telefone"><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label for=""><h4>Como conheceu a loja:</h4></label>
+                    <label for="rede">Redes Sociais</label>
+                    <input type="checkbox" id="rede">
+                    <label for="jor">Jornais</label>
+                    <input type="checkbox" id="jor">
+                    <label for="tv">Televisão</label>
+                    <input type="checkbox" id="tv">
+                    <label for="rad">Radio</label>
+                    <input type="checkbox" id="rad"><br><br>
+                    <label for="">Outros</label><br>
+                    <textarea rows="6" cols="50">
+                    </textarea><br>
+                </fieldset>
+                <br>
+                <input type="button" value="Enviar">  
+        
+            </form>
+
+		</section>
+
+		<section>
+			<h2>Informações de Contato</h2>
+
+			<!-- Adicione aqui a sua tabela -->
+            <table style="border: 2px solid blue; border-collapse: collapse;">
+                <colgroup>
+                    <col style="width: 100px; background-color: rgb(100, 248, 184); border: 2px solid blue">
+                    <col style = "border: 2px solid blue">
+                    <col style = "border: 2px solid blue">
+                    <col style = "border: 2px solid blue">
+                    <col style = "border: 2px solid blue;">
+                </colgroup>
+                <tr style="border: 2px solid blue">
+                    <th>Nome</th>
+                    <th>Setor</th>
+                    <th>Telefone</th>
+                    <th>Ramal</th>
+                    <th>e-mail</th>
+                    <th>Filial</th>
+                </tr>
+                <tr style="border: 1px solid blue">
+                    <td>Gabriel</td>
+                    <td>Protocolo</td>
+                    <td>99988-3366</td>
+                    <td align="center">356</td>
+                    <td>gb@gmail.com</td>
+                    <td align="center">SP</td>                  
+                </tr>
+                <tr  style="border: 1px solid blue">
+                    <td>leonardo</td>
+                    <td>Arquivo</td>
+                    <td>99955-7766</td>
+                    <td align="center">356</td>
+                    <td>lp@gmail.com</td>
+                    <td align="center">RJ</td>                  
+                </tr>
+                <tr  style="border: 1px solid blue">
+                    <td>Julia</td>
+                    <td>Recepção</td>
+                    <td>99988-2266</td>
+                    <td align="center">356</td>
+                    <td>jub@gmail.com</td>
+                    <td align="center">BA</td>                  
+                </tr>
+                <tr  style="border: 1px solid blue">
+                    <td>Karla</td>
+                    <td>Atendimento</td>
+                    <td>99988-0066</td>
+                    <td align="center">356</td>
+                    <td>kg@gmail.com</td>
+                    <td align="center">MG</td>                  
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Estoque</td>
+                    <td>99911-7766</td>
+                    <td align="center">356</td>
+                    <td>jt@gmail.com</td>
+                    <td align="center">GO</td>                  
+                </tr>
+
+                
+            </table>
+        
+
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Minha Empresa. Todos os direitos reservados.</p>
+	</footer>
+
+</body>
+</html>
