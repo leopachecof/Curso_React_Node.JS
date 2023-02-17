@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15/02/23</title>
+</head>
+
+<body>
+    <h2 title="Título de imagem">Imagem</h2>  <!-- Tag title aparece quando o mouse fica parado em cima-->
+    <figure>
+        <img title="Capa da serie Eu a Patroa e as Crianças" width="200" src="./midias/eu-a-patroa-e-as-criancas.jpeg" alt="Capa da serie Eu a Patroa e as Crianças">
+        <figcaption>
+            Capa da serie Eu a Patroa e as Crianças
+        </figcaption>
+    </figure>
+    <h2>Video</h2>
+    <video width="300" src="./midias/abertura-chaves.mp4" controls></video>
+    <h2>Audio</h2>
+    <audio src="./midias/abertura-um-maluco-no-pedaco.mp3" controls></audio>
+    <hr>
+    <br>
+    <h2>Listas</h2>
+    "ul" = "Unordered list = Lista não ordenadas
+    "li" = List Item = Item da Lista
+    <h3>Listas não ordenadas</h3>
+    <ul>
+        <li>Farinha de Trigo</li>
+        <li>Leite</li>
+        <li>Ovos</li>
+        <li>Açucar</li>
+    </ul>
+    <br>
+    "ol" = "Ordered list = Lista ordenadas
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>Misture todos os ingredientes</li>
+        <li>Aqueça o forno</li>
+        <li>Colque a mistura no forno</li>
+        <li>Sirva em fatia</li>
+    </ol>
+    <br>
+    <h3>Listas aninhadas</h3>
+    <ul>
+        <li>Café da manhã
+            <ul>
+                <li>Pão</li>
+                <li>Ovo</li>
+                <li>Café</li>
+            </ul>
+        </li>
+        <li>Almoço
+            <ul>
+                <li>Arroz</li>
+                <li>Feijão</li>
+                <li>Carne</li>
+            </ul>
+        </li>
+        <li>Almoço
+            <ol>
+                <li>Suco</li>
+                <ol>
+                    <li>açucar</li>
+                    <li>gelo</li>
+                </ol>
+                <li>Biscoito</li>
+                <li>Fruta</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr>
+    <br>
+
+    <h3>Listas de descrição</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>O HTML (HyperText Markup Language)</dd>
+            <dt>CSS</dt>
+            <dd>O CSS (Cascading Style Sheets)</dd>
+        </dl>
+    
+    Atributos Específicos (src, href, width, target)
+    Atributos Globais (id, class, title)
+
+    <hr>
+    <br>
+
+    tr = Table Row
+    td = Table Data
+    <h2>Tabelas</h2>    
+    <table style="border: 2px solid blue;">
+        <colgroup>
+            <col style="width: 100px; background-color: aqua; ">
+            <col>
+            <col>
+        </colgroup>
+        <tr>
+             <th>Nome</th> <!--th é para o cabeçalho-->
+            <th>Área</th> <!--CTRL D para selecionar todas as palavras de uma a uma, para substituição geral ao mesmo tempo-->
+            <th>Idade</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Gabriel B</td> <!--td é para as demais cálulas-->
+            <td>Full Stack</td>
+            <td>21 anos</td>
+            <td align="center" rowspan="3">Ceará</td>
+        </tr>
+        <tr>
+            <td>Leonardo</td>
+            <td>Full Stack</td>
+            <td>45 anos</td>
+        </tr>
+        <tr>
+            <td>Daniela</td>
+            <td>Full Stack</td>
+            <td>46 anos</td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">Professores da SolCode</td>
+        </tr>
+    </table>
+
+    <h3>Times do Brasil</h3>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Score</th>
+                <th>Gols</th>
+                <th>Vitórias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Flamengo</td>
+                <td>320</td>
+                <td>20</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Fluminense</td>
+                <td>200</td>
+                <td>11</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+                <td>230</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Palmeiras</td>
+                <td>280</td>
+                <td>17</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td align="center" colspan="4">Times Brasileiros</td>
+        </tfoot>
+    </table>
+
+</html>

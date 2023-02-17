@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula16/02/23</title>
+</head>
+<body>
+    <h3>Cadastro de Perfil</h3>
+    <form style="width: 500px;">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <br>
+            <label for="cNome">Nome:</label>
+            <input type="text" name="nome" id="cNome" minlength="1" maxlength="70" size="40" placeholder="Nome completo" required><br><br> <!--required é deixar o campo obrigatório-->
+            <label for="cSenha">Senha:</label>
+            <input type="password" name="senha" id="cSenha"><br><br>
+            <label for="">E-mail:</label>
+            <input type="email" name="email" placeholder="Escreva seu e-mail..." ><br><br>
+            <label for="">Telefone:</label>
+            <input type="tel" name="telefone"><br><br>
+            <label for="">URL do Instagram:</label>
+            <input type="url"name="url"><br><br>
+            <label for="">Idade:</label>
+            <input type="number" name="numero" min="0" max="130"><br><br> <!--atributos min e max -->
+            <label for="">Data:</label>
+            <input type="date" name="data"><br><br>
+            <label for="">Hora:</label>
+            <input type="time"><br><br>
+            <label for="">Foto:</label>
+            <input type="file" name="avatar" multiple accept=".jpg,.png"><br><br>
+
+        </fieldset>
+        <br>        
+        <fieldset>
+            <legend>Outras Informações</legend>
+            <br>
+            Interesses
+            Humanas <input type="checkbox" name="interesse" id="" checked><br>
+            Exatas <input type="checkbox" name="interesse" id=""><br>
+            Linguagens <input type="checkbox" name="interesse" id=""><br>
+            Ciências <input type="checkbox" name="interesse" id=""><br><br>
+            Escolha sua cor favorita:
+            <input type="color" name="cor" id="">
+            <br><br>
+            Sexo: <br>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="masc">
+            <label for="femi">feminino</label>
+            <input type="radio" name="sexo" id="femi" checked>
+            <br><br>
+            Nível de Inglês:
+            0<input type="range" name="ingles" id="" value="5" min="0" max="10">10<br>
+            Escondido:
+            <input type="hidden" name=""><br>
+            Digite um texto: <br>
+            <textarea rows="4" cols="10" name="" id="" cols="30" rows="10" placeholder="Escreva aqui...">
+            </textarea><br>
+            Escolaridade:<br>
+            <select name="" id="">
+                <option disabled selected>Selecione uma opção</option>
+                <option value="">Ensino Fundamental Completo</option>
+                <option value="">Ensino Fundamental inompleto</option>
+                <option value="">Ensino Superior Completo</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar"> <!--Submeter --> <br><br>
+        <button type="submit">Enviar</button><br><br>
+        <button type="button">Não faz nada</button><br><br>
+        <button type="reset">Reiniciar</button>
+
+    </form>
+    
+</body>
+</html>
