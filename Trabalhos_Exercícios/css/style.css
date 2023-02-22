@@ -1,0 +1,259 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Manrope;
+}
+/********************CABEÇALHO*****************************/
+.header {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 40px;
+    background-color: black;    
+    
+}
+/********************LOGOMARCA*****************************/
+.logo {
+    width: 400px;
+    padding: 10px;
+    /*background-color: yellow;*/
+}
+
+.logoleocalcados {
+    width: 80%;
+}
+
+/*********************MENU****************************/
+
+.menu {
+    display: flex;
+    width: 600px;
+    margin-top: 60px;
+    /*background-color: yellow;*/
+    
+
+}
+
+.menu li a {
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li:hover {
+    background: #057b8e;
+    
+}
+
+.menu > li:hover > .submenu,
+.submenu > li:hover > .submenu {
+    display: block;
+    
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background: #026371;
+    top: 50px;
+    left: 0;
+    min-width: 110%;
+}
+
+.submenu li:hover {
+    background: #05525e;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}
+
+ul {
+   list-style: none;
+}
+/**********************FAIXA PROMOCIONAL***************************/
+.promo {
+    display: flex;
+    color: black;
+    padding: 0px 0px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+/**********************TOP FIVE SEMANA***************************/
+.semana {
+    display: flex;
+    color: #057b8e;
+    padding: 20px 0px;
+    font-size: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/*******************EXPOSIÇÃO******************************/
+.loja {
+    display: flex;
+    margin: 0px 10px;
+}
+
+/**********************FOTOS***************************/
+
+.calcados {
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    justify-content: space-between;   
+}
+
+.produto img {
+    width: 230px;
+}
+.produto img:hover {
+    width: 400px;
+    
+}
+
+
+/********************PERSONALIZAÇÃO*****************************/
+.selecao {
+    display: block;
+    width: 10%;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    color: rgb(41, 41, 41);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px grey;
+}
+.tam {
+    height: 160px;
+}
+.genero {
+    height: 110px;
+}
+.categoria {
+    height: 80px;
+}
+/**********************COMPRAS**************************/
+.compras {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    width: auto;
+    justify-content: space-around;   
+    flex-wrap:wrap;
+    background: rgb(244, 244, 244);
+}
+
+.compras a {
+    display: block;
+    margin: 8px;
+    width: 250px;
+    background-color: rgb(235, 236, 231);
+    color: rgb(41, 41, 41);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px grey;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.compras a h3{
+    color: #059d1e;
+    
+}
+.compras a img{
+    width: 100%;
+    
+}
+
+/******************RODAPÉ*******************************/
+
+footer {
+    background-color: black;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.informe {
+    display: flex;
+    justify-content: center;
+
+}
+.institucional {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.institucional li h3 {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+
+}
+.institucional li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+
+}
+
+.rod_sms {
+    margin-top: 20px;
+    padding: 0 50px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+
+}
+    
+.promo {
+
+ 
+    animation-name: minhaAnimacao;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+
+}
+
+@keyframes minhaAnimacao {
+ 
+    0% {
+        background-color: rgb(249, 233, 50);
+    }
+    
+    50% {
+        background-color: rgb(254, 82, 25);
+    }
+
+    100% {
+        background-color: rgb(249, 233, 50);
+    }
+}
