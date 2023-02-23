@@ -1,0 +1,37 @@
+/*Seletor Universal*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 35px;
+}
+Também existem outros tipos de metricas para fontes: em, rem
+
+Outra maneira de estilizar:
+*/
+
+h1, h2 {
+    font-size: 35px;
+    font-weight: 400;    /*   lighter- sem peso, bem fino  //  100, 200, 300, 400...   */
+}
+h1 {
+    text-shadow: 1px 1px 3px black; /*sombra - direita, baixo, espessura, cor*/
+}
+
+h2 {
+    font-style: italic;
+    color: #f10c49;    /* black ******** #000000  ****** rgb(50, 70, 120) */
+
+}
+
+p {
+    text-align: center;
+    text-transform: none ; /*uppercase (maiúsculo); capitalize; lowercase*/
+    line-height: 23px; /*altura da linha*/
+}
