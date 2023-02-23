@@ -120,3 +120,5 @@ function estaAprovado(n1, n2, n3) {
   console.log("----------------");
   let statusAluno = estaAprovado(6.5, 3.0, 8.6);
   console.log(statusAluno);
+
+  //********************recuperado*************************** */
