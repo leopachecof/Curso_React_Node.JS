@@ -1,0 +1,52 @@
+Hastebin
+/* 
+    Prioridades CSS:
+    inline > interno > externo
+    ultimo > primeiro
+    i, b > p   -  div img > img
+    !important -> supera tudo
+*/
+
+/* Ordenação */
+
+h1 {
+    color: blue;
+}
+h1 {
+    color: red;
+}
+h1 {
+    color: orangered;
+}
+h1 {
+    color: yellow; /* Priorizado */
+}
+
+i {
+    color: blue;
+}
+
+/* Espeficidade */
+b {
+    color: red;
+}
+
+p {
+    color: #2ee534;
+}
+
+div section article img {
+    width: 100px;
+    height: 100px;
+}
+
+div img {
+    width: 200px; /* Largura */
+    height: 200px; /* Altura */
+}
+For immediate assistance, please email our customer support: support@toptal.com
+
+img {
+    width: 100px !important; /*tentar fazer depois*/
+
+}

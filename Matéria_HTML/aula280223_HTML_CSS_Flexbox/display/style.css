@@ -1,0 +1,26 @@
+/*
+Display - Visualização
+Block -> Ocupa todo espaço disponível do container
+Inline -> Conteúdo ocupa todo espaço em linha  (um lado do outro)
+Inline-block -> 
+
+*/
+
+
+.border {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.bloco {
+    display: block; /*faz ocupar todo espaço disponível*/
+}
+
+.inline {
+    /*display: inline;*/
+   display:inline-block;  /*(ele se comporta como bloco, ajuda a respeitar as margens e espaçamento)*/
+}
+
+.none {
+    display: none
+}

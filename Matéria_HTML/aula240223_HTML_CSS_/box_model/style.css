@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+
+    /*
+    border-box -> tamanho total da box = width
+    content-box -> tamanho total da box = width + padding + border
+    */
+}
+header {
+    width: 100%;
+    height: 100px;
+
+    border: 5px solid rgb(4, 88, 34);
+    /*
+    Acima é o resumo dos abaixo:
+    border-width: 2px;
+    border-style: solid; dashed, dotted, none, hidden
+    border-color: black;
+    */
+    border-radius: 18px;
+    padding: 20px 30px 30px 20px;
+    /*
+    padding: cima,direita, baixo, esquerda
+    */
+}
+
+#circulo {
+    /*
+    Eu estava com dificuldades de criar o círculo vazio, mas depois descobri que eu não estava colocando a altura.
+    */
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 50px;
+}
+
+.img1 {
+    /*
+    Neste caso a imagem é quadrada, mas a borda transforma em círculo.
+    */
+    width: 200px;
+    border: 2px solid rgb(45, 9, 226);;
+    border-radius: 1000px;
+}
+
+header a {
+    margin: 20px 10px;
+    border: 1px solid red;
+}
+
+/*
+*/

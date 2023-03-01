@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: green;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    text-decoration: none; /*retira o underline do link*/
+    color: white; /* remove a cor de link clikado*/
+
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+/*Pseudo Class - seletor, interação*/
+
+/*a:visited {
+    background-color: rgb(81, 88, 81);
+    
+}
+*/
+
+a:hover {
+    background-color: rgb(1, 86, 1);
+    transform: scale(1.1);
+}
+a:active {
+    background-color: red;
+
+}
