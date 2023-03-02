@@ -2,8 +2,8 @@
 // Arrow = flecha
 // Arrow function = Sintaxe +curta
 
-// function ola() {
-//   console.log("Hello!");
+//function ola() {
+//console.log("Hello!");
 // }
 
 // First-class citizen = funções são tratadas como valor
@@ -37,6 +37,8 @@ let ola = () => {
 */
 
 console.log("----------------");
+
+
 // Exercício: Transforme as funções abaixo em arrow
 const criarNomeCompleto = (nome, sobrenome) => nome + " " + sobrenome;
 console.log(criarNomeCompleto("Leo", "Pacheco"));

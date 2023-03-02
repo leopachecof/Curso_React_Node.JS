@@ -52,6 +52,7 @@ console.log("----------------");
 // Esteja entre 11 e 15: "Clima bom!"
 // Esteja entre 16 e 30: "Agradável..."
 // Seja maior que 30: "Hell"
+
 function toCelsius(tempF) {
     let tempC = (tempF - 32) / 1.8;
     return tempC;
