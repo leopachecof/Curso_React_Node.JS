@@ -75,30 +75,24 @@
 
 // console.log(respostaFinal(resultado));
 
-console.log("--------------EXERCÍCIOS 1-------------")
 
-function multiply (a = 0, b = 0) {
-    return a * b
-}
+////////////////////////////////////////////////////////////////
 
-console.log(multiply (5, 9));
+/*
 
-console.log("--------------EXERCÍCIOS 2-------------")
+*/
 
-const divide = function (x = 0, y = 0) {
-    return x / y
-}
 
-console.log(divide(18, 3));
+////////////////////////////////////////////////////////////////
 
-console.log("--------------EXERCÍCIOS 3-------------")
+/*
+Dobre o valor de uma velocidade através de uma função anônima.
 
-const log = function (value = `Você deve passar um valor com argumento`) {
-    console.log(value);
-}
+let duplaVelocidade = function(velocidade) {
+    return velocidade * 2
+};
+let novaVelocidade = duplaVelocidade(120);
 
-for (let i = 0; i < 7; i++) {
-    let count = i + 1
-    log(`Esta é a ${count}ª vez que essa string é exibida.`);
-}
+console.log(novaVelocidade);
 
+*/
