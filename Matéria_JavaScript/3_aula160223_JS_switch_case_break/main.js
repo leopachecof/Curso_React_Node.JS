@@ -35,7 +35,7 @@ switch (numero) {
     console.log("Segunda");
     break;
   case 3:
-    console.log("Terça");
+    console.log("Terça");m
     break;
   case 4:
     console.log("Quarta");
