@@ -546,3 +546,133 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(text);
  */
+///////////////////////////////////////////////////////////////////////////                1.4 - 5
+/* Escreva um programa que use um laço for para imprimir na tela os números
+de 10 a 1 (em ordem decrescente). */
+
+/* for (let i = 10; i >= 1; i--) {
+    console.log(`${i}`);
+} */
+///////////////////////////////////////////////////////////////////////////                1.4 - 6
+// ostre apenas os números ímpares de 1 até 1000.]
+
+/* for (let i = 0; i <= 1000; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    };
+};
+ */
+
+///////////////////////////////////////////////////////////////////////////                1.5 - 1
+
+// Escreva uma função que receba um número e retorne seu dobro.
+
+/* function dobleNum(num) {
+    let dobro = num * 2
+    console.log(dobro);
+    return dobro
+}
+dobleNum (2);
+dobleNum (3);
+dobleNum (7);
+dobleNum (122); */
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 2
+
+// Escreva uma função que receba um número e retorne seu quadrado.
+
+/* function quadradoNum (num) {
+    let calc3 = num * num
+    console.log(calc3);
+    return calc3;
+}
+quadradoNum(2);
+quadradoNum(3);
+quadradoNum(4);
+quadradoNum(5);
+quadradoNum(6);
+quadradoNum(245); */
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 3
+/* 
+Escreva uma função que receba nome, idade, endereço e retorne uma
+mensagem no formato: "Olá, eu sou X, tenho X ano(s) e moro em X". Faça
+uso da interpolação de strings. */
+
+/* 
+function receberDados (nome, idade, endereco) {
+    console.log(`Olá, eu sou ${nome}, tenho ${idade} anos e moro em ${endereco}.`);
+
+};
+receberDados("Leonardo", 45, "Maricá");
+receberDados("Daniela", 46, "Maricá");
+receberDados("Gal", 1, "Maricá");
+receberDados("Regina", 73, "Niterói");
+receberDados("Bel", 69, "Niterói"); */
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 4
+
+/* 
+Escreva uma função que receba dia, mês e ano e retorne a data por
+extenso no formato "DD/MM/AAAA". */
+
+/* function dataCompleta (dia, mes, ano) {
+    console.log(`${dia}/${mes}/${ano}`);
+};
+
+dataCompleta(23, 06, 2022);
+dataCompleta(14, 03, 1998);
+dataCompleta(01, 09, 1982);
+dataCompleta(29, 11, 2021);
+dataCompleta(21, 04, 2018); */
+
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 5
+/* 
+Escreva uma função que receba um preço de um produto e um percentual.
+Retorne o valor aplicado ao desconto. */
+/* 
+function verificarDesconto (preco, desc) {
+    let descDado = preco * desc
+    let descPorCento = desc * 100
+    let valorFinal = preco - descDado
+    console.log(`O produto no valor de ${preco} teve um desconto de ${descPorCento}% e o valor final é de ${valorFinal}. reais`);
+}
+
+verificarDesconto (100, 0.10);
+verificarDesconto (1000, 0.10);
+verificarDesconto (300, 0.50);
+verificarDesconto (156, 0.15);
+verificarDesconto (14655, 1);
+
+ */
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 6
+
+/* Escreva uma função que receba uma palavra e um número. Retorne a
+palavra repetida a quantidade de vezes indicada pelo segundo parâmetro.
+Exemplo: repetir("batata", 3) -> "batatabatatabatata". OBS: Utilize
+um loop para resolver. */
+
+/* function repetir (palavra, vezes) {
+    let result = "";
+    for (let i = 0; i < vezes; i++) {
+         result += palavra;
+        }
+        return result;    
+};
+console.log(repetir("Leo", 10));
+
+ */
+
+//////////////////////////////////////////////////////////////////////////                1.5 - 7
+// Escreva uma função que recebe outra função e invoca ela.
+
+function invocarFuncao(funcao) {
+    funcao();
+    }
+    function minhaFuncao() {
+    console.log("Essa é a minha função!");
+    }
+    invocarFuncao(minhaFuncao);
+    
