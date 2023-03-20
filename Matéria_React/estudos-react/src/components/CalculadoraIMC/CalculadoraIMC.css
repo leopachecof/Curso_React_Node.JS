@@ -1,0 +1,56 @@
+.calculadora {
+    width: 400px;
+    height: auto;
+    background-color: rgb(142, 196, 195);
+    border-radius: 8px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 8px rgb(163, 163, 163);
+    text-align: center;
+    padding: 30px 10px;
+    color: #112A46;
+        
+}
+
+.btn_calculadora_IMC {
+    width: 80%;
+    height: 30px;
+    color: white;
+    background-color: rgb(75, 112, 244);
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(163, 163, 163);
+    text-align: center;
+}
+
+.btn_reset {
+    width: 80%;
+    height: 30px;
+    color: white;
+    background-color: rgb(162, 162, 162);
+    border-radius: 4px;
+
+    text-align: center;
+    border: none;
+}
+
+.iptcalculadora_IMC {
+    width: 80%;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(67, 126, 255);
+    margin-top: 10px;
+}
+
+.calculadora h1 {
+    color: #112A46;
+    
+}
+.calculadora h2 {
+    color: #112A46;
+}
+.calculadora h3 {
+    color: #112A46;
+}
+.correcao h4 {
+    color: red;
+}

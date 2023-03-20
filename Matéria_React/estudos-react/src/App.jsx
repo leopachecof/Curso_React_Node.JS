@@ -12,6 +12,8 @@ import { Sorteio } from "./components/Sorteio/Sorteio";
 import { Abas } from "./components/Abas/Abas";
 import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
 import { CalculadoraIMC } from "./components/CalculadoraIMC/CalculadoraIMC";
+import { Correcao } from "./components/CalculadoraIMC/Correcao";
+import { Carrossel } from "./components/Carrossel/Carrossel";
 
 export function App() {
   return (
@@ -31,7 +33,10 @@ export function App() {
       {/* <Sorteio /> */}
       {/* <Abas /> */}
       {/* <QuestaoQuiz/> */}
-      <CalculadoraIMC/>
+      {/* <CalculadoraIMC/>
+      <Correcao/> */}
+      <Carrossel/>
+
 
     </>
   );
