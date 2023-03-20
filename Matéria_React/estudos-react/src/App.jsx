@@ -14,6 +14,13 @@ import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
 import { CalculadoraIMC } from "./components/CalculadoraIMC/CalculadoraIMC";
 import { Correcao } from "./components/CalculadoraIMC/Correcao";
 import { Carrossel } from "./components/Carrossel/Carrossel";
+import { CadastroPessoas } from "./components/CadastroPessoas/CadastroPessoas";
+import { CadastroPessoasCorrecao } from "./components/CadastroPessoas/CadastroPessoasCorrecao";
+import { ConversorTemp } from "./components/ConversorGraus/ConversorGraus";
+import { ConversorDistancia } from "./components/ConversorDistancia/ConversorDistancia";
+import { Dicionario } from "./components/Dicionario/Dicionario";
+import { DesafioEfeito } from "./components/CalculadoraIMC/DesafioEfeito";
+import { CalculadoraPorcentagem } from "./components/CalculadoraPorcentagem/CalculadoraPorcentagem";
 
 export function App() {
   return (
@@ -33,10 +40,16 @@ export function App() {
       {/* <Sorteio /> */}
       {/* <Abas /> */}
       {/* <QuestaoQuiz/> */}
-      {/* <CalculadoraIMC/>
-      <Correcao/> */}
-      <Carrossel/>
-
+      {/* <CalculadoraIMC/> */}
+      {/* <Correcao/> */}
+      <DesafioEfeito />
+      <CalculadoraPorcentagem />
+      {/* <Carrossel/> */}
+      {/* <CadastroPessoas /> */}
+      {/* <CadastroPessoasCorrecao /> */}
+      {/* <ConversorTemp/> */}
+      {/* <ConversorDistancia /> */}
+      {/* <Dicionario /> */}
 
     </>
   );
