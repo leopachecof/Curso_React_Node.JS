@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export function Home() {
     return (
@@ -6,17 +6,20 @@ export function Home() {
             <h1>Home</h1>
             <ul>
                 <li>
-                    <Link to="section1">Section 1</Link>
+                    <Link to="/1">Section 1</Link>
                 </li>
                 <li>
-                    <Link to="section2">Section 2</Link>
+                    <Link to="/2">Section 2</Link>
                 </li>
                 <li>
-                    <Link to="section3">Section 3</Link>
+                    <Link to="/3">Section 3</Link>
                 </li>
+                <br />
+
+                
             </ul>
              
-            
+            <Outlet />
         </div>
     );
 }
