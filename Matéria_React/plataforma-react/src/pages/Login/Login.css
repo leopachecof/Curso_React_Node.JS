@@ -1,16 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.fundo{
-    border: 1px solid rgb(0, 0, 0);
-    background-image: url(https://img.freepik.com/fotos-gratis/paisagem-de-nevoeiro-matinal-e-montanhas-com-baloes-de-ar-quente-ao-nascer-do-sol_335224-794.jpg?t=st=1679424937~exp=1679425537~hmac=b4d24fe549e98817e4a468c538b5a385add35db40b0559acf44f78c3a7adc765);
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+.background{
+    width: 50em;
     
 }
 
@@ -18,35 +7,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    
     height: 300px;
     margin: 50px auto;
     background-color: rgb(255, 255, 255, 0.8);
     border-radius: 6px;
+    
 }
 
 .arealogin {
     justify: center;
-    
-}
-.btnsenha {
-    background-color: rgb(21, 168, 247);
-    color: white;
-    border-radius: 6px;
-    width: 80px;
-    height: 40px;
-    border: none;
-    margin-left: 100px;
-}
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.campo {
-    border-radius: 5px;
-    width: 300px;
-    height: 50px;
-    border: 1px solid rgb(204, 204, 204);
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
     
 }
