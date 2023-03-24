@@ -11,6 +11,8 @@ import { NotFound } from './pages/NotFound/NotFound';
 import { Root } from './pages/Root/Root';
 import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
 import { Perfil } from './pages/Perfil/Perfil';
+import { Pokemon } from './pages/Pokemon/Pokemon';
+import { CadastroSuperHerois } from './pages/CadastroSuperHerois/CadastroSuperHerois';
 
 
 const Sections = [
@@ -46,6 +48,10 @@ function App() {
               <Route path='/usuario/edit/:id' element={<EditaUsuario />} /> {/*:id -> Parametro de rota */}
               <Route path='/usuario/perfil/:id' element={<Perfil />} /> {/*:id -> Parametro de rota */}
               <Route path='/login' element={<Login />} />
+
+              <Route path='/pokemon' element={<Pokemon />} />
+              <Route path='/cadastrosuperherois' element={<CadastroSuperHerois />} />
+
               <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>

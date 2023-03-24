@@ -23,6 +23,12 @@ export function Menu() {
             <Button variant="link">
                 <Link to="/login">Login</Link>
             </Button>
+            <Button variant="link">
+                <Link to="/pokemon">Pokemon</Link>
+            </Button>
+            <Button variant="link">
+                <Link to="/cadastrosuperherois">Super-herois</Link>
+            </Button>
           </Nav>
         </Container>
       </Navbar>
