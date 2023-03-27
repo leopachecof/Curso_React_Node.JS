@@ -1,0 +1,6 @@
+input, button[type=submit], select, textarea {
+    width: 250px;
+}
+.invalid {
+    color: red;
+}

@@ -29,6 +29,15 @@ export function Menu() {
             <Button variant="link">
                 <Link to="/cadastrosuperherois">Super-herois</Link>
             </Button>
+            <Button variant="link">
+                <Link to="/cadastroequipamentos">Cadastro Equipamentos</Link>
+            </Button>
+            <Button variant="link">
+                <Link to="/cadastroprogramadores">Cadastro de Programadores</Link>
+            </Button>
+            <Button variant="link">
+                <Link to="/programadores">Cadastro de Programadores/Correção</Link>
+            </Button>
           </Nav>
         </Container>
       </Navbar>

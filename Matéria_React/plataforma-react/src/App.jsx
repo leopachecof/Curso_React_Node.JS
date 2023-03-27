@@ -13,6 +13,9 @@ import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
 import { Perfil } from './pages/Perfil/Perfil';
 import { Pokemon } from './pages/Pokemon/Pokemon';
 import { CadastroSuperHerois } from './pages/CadastroSuperHerois/CadastroSuperHerois';
+import { CadastroEquipamentos } from './pages/CadastroEquipamentos/CadastroEquipamentos';
+import { CadastroProgramadores } from './pages/CadastroProgramadores/CadastroProgramadores';
+import { Programadores } from './pages/CadastroProgramadores/correcao';
 
 
 const Sections = [
@@ -51,6 +54,9 @@ function App() {
 
               <Route path='/pokemon' element={<Pokemon />} />
               <Route path='/cadastrosuperherois' element={<CadastroSuperHerois />} />
+              <Route path='/cadastroequipamentos' element={<CadastroEquipamentos />} />
+              <Route path='/cadastroprogramadores' element={<CadastroProgramadores />} />
+              <Route path='/programadores' element={<Programadores />} />
 
               <Route path='*' element={<NotFound />} />
           </Route>
