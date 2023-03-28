@@ -1,9 +1,11 @@
+import { useContext } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import googleIcon from "../../assets/icons/google-white.svg";
 import loginImg from "../../assets/images/login.png";
+import { AuthContext } from "../../contexts/AuthContext";
 import { loginEmailSenha, loginGoogle } from "../../firebase/auth";
 
 export function Login() {
@@ -15,6 +17,7 @@ export function Login() {
 
   const navigate = useNavigate();
 
+  
   function onSubmit(data) {
     const { email, senha } = data;
     loginEmailSenha(email, senha)
@@ -31,10 +34,10 @@ export function Login() {
           duration: 2500,
         });
       });
-  }
-
-  function onLoginGoogle() {
-    loginGoogle()
+    }
+    
+    function onLoginGoogle() {
+      loginGoogle()
       .then((user) => {
         toast.success(`Bem-vindo(a) ${user.email}`, {
           position: "bottom-right",
@@ -48,7 +51,15 @@ export function Login() {
           duration: 2500,
         });
       });
-  }
+    }
+    
+    const usuarioLogado = useContext(AuthContext);
+
+    // se estiver dados no objeto, está logado
+    if(usuarioLogado !== null) {
+      return <Navigate to="/login" />;
+    }
+  
 
   return (
     <Container fluid className="my-5">
